@@ -11,7 +11,7 @@ body {
 
 h1 {
 	width: 180px;
-	margin: 100px auto 60px auto;
+	margin: 100px auto 40px auto;
 	text-align: center;
 }
 
@@ -43,35 +43,61 @@ p {
 	color: black;
 }
 
+
 /**for MOBILE phones**/
 .box {
 	background-color: #999999;
 	border: 2px solid #000;
-	width: 200px;
+	width: 300px;
 	margin: 20px auto;
 }
 
 /**for TABLET**/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) {
 	  .box {
 	  	float: left;
+	  	margin: 5px;
 	  }
 
 	  .main-container {
-	  	padding: 20px;
+	  	padding: 40px;
 	  }
-	  .col-s-1 {width: 8.33%;}
-	  .col-s-2 {width: 16.66%;}
-	  .col-s-3 {width: 25%;}
-	  .col-s-4 {width: 33.33%;}
-	  .col-s-5 {width: 41.66%;}
-	  .col-s-6 {width: 50%;}
-	  .col-s-7 {width: 58.33%;}
-	  .col-s-8 {width: 66.66%;}
-	  .col-s-9 {width: 75%;}
-	  .col-s-10 {width: 83.33%;}
-	  .col-s-11 {width: 91.66%;}
-	  .col-s-12 {width: 100%;}
+	  .col-s-1 {
+	  	width: 8.33%;
+	  }
+	  .col-s-2 {
+	  	width: 16.66%;
+	  }
+	  .col-s-3 {
+	  	width: 25%;
+	  }
+	  .col-s-4 {
+	  	width: 33.33%;
+	  }
+	  .col-s-5 {
+	  	width: 41.66%;
+	  }
+	  .col-s-6 {
+	  	width: 48%;
+	  }
+	  .col-s-7 {
+	  	width: 58.33%;
+	  }
+	  .col-s-8 {
+	  	width: 66.66%;
+	  }
+	  .col-s-9 {
+	  	width: 75%;
+	  }
+	  .col-s-10 {
+	  	width: 83.33%;
+	  }
+	  .col-s-11 {
+	  	width: 91.66%;
+	  }
+	  .col-s-12 {
+	  	width: 97.30%;
+	  }
 }
 
 
